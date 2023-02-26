@@ -1,0 +1,75 @@
+header{
+    width: 100%;
+    background: rgb(15, 194, 192, 0.3) ;
+
+
+    .hero_btn{
+       width: 55%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       h2{
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 70px;
+        text-align: center;
+        color: #008F8C;
+        
+       }
+       p{
+        width: 80%;
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(21, 20, 57, 0.4);
+       }
+       button{
+        height: 60px;
+        width: 268px;
+        border-radius: 100px;
+        border: none;
+        color: white;
+        background-color: #0FC2C0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 40px;
+       }
+    }
+    .hero_cards{
+        display: flex;
+        border: 1px solid black;
+        justify-content: space-around;
+        margin-top: 100px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20%;
+            height: 300px;
+            img{
+                width: 70%;
+            }
+            p{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                text-align: center;
+                color: rgba(21, 20, 57, 0.4);
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.cont_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 200px;
+}
