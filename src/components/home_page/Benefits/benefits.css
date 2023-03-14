@@ -1,0 +1,39 @@
+.benef {
+  background: #BEF9F2;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.benefits_cont {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.benefits_cont .ben_title {
+  font-size: 65px;
+  margin-top: 50px;
+}
+.benefits_cont .ben_item {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.benefits_cont .ben_item img {
+  width: 200px;
+}
+.benefits_cont .ben_item .ben_item_txt {
+  width: 70%;
+}
+.benefits_cont .ben_item .ben_item_txt h2 {
+  font-size: 48px;
+}
+.benefits_cont .ben_item .ben_item_txt p {
+  font-size: 32px;
+  margin-top: 20px;
+}
+.benefits_cont .ben_item .ben_r {
+  text-align: right;
+}/*# sourceMappingURL=benefits.css.map */

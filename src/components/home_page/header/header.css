@@ -1,72 +1,78 @@
 header {
   width: 100%;
-  background: rgba(15, 194, 192, 0.3);
+  background: #BEF9F2;
+  height: 100vh;
 }
-header .hero_btn {
-  width: 55%;
+header .header_pic {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
-header .hero_btn h2 {
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 70px;
-  text-align: center;
-  color: #008F8C;
-}
-header .hero_btn p {
-  width: 80%;
-  margin-top: 30px;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
-  text-align: center;
-  color: rgba(21, 20, 57, 0.4);
-}
-header .hero_btn button {
-  height: 60px;
-  width: 268px;
-  border-radius: 100px;
-  border: none;
-  color: white;
-  background-color: #0FC2C0;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  margin-top: 40px;
-}
-header .hero_cards {
-  display: flex;
-  border: 1px solid black;
-  justify-content: space-around;
-  margin-top: 100px;
-}
-header .hero_cards div {
+header .header_pic .header_pic_rect {
+  height: 362px;
+  width: 208px;
+  border: 10px solid #000000;
+  background: #ECFFFD;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
-  height: 300px;
+  z-index: 5;
 }
-header .hero_cards div img {
-  width: 70%;
-}
-header .hero_cards div p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
+header .header_pic .header_pic_rect p {
+  width: 80%;
   text-align: center;
-  color: rgba(21, 20, 57, 0.4);
-  margin-top: 20px;
+  margin-top: 50px;
+}
+header .header_pic .header_pic_rect :nth-child(1) {
+  font-size: 15px;
+}
+header .header_pic .header_pic_rect :nth-child(2) {
+  font-size: 24px;
+}
+header .header_pic .header_pic_rect :nth-child(3) {
+  font-size: 30px;
+  margin-top: 30px;
+}
+header .header_pic img {
+  position: absolute;
+  z-index: 4;
+  left: 50px;
+}
+header .header_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .header_form h2 {
+  text-align: center;
+  font-size: 36px;
+}
+header .header_form p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+header .header_form input {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #000000;
+  margin-top: 36px;
+}
+header .header_form button {
+  background: #ECFFFD;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 10px 50px;
+  font-size: 26px;
+  margin-top: 36px;
 }
 
 .cont_header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 15%;
 }/*# sourceMappingURL=header.css.map */

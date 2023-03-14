@@ -1,0 +1,41 @@
+
+.benef{
+    background: #BEF9F2;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.benefits_cont{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ben_title{
+        font-size: 65px;
+        margin-top: 50px;
+    }
+    .ben_item{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        img{
+            width: 200px;
+        }
+        .ben_item_txt{
+            width: 70%;
+            h2{
+                font-size: 48px;
+            }
+            p{
+                font-size: 32px;
+                margin-top: 20px;
+            }
+        }
+        .ben_r{
+            text-align: right;
+        }
+    }
+    
+    
+}

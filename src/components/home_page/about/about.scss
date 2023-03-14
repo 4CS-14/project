@@ -1,0 +1,33 @@
+.about_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 30px 0;
+    justify-content: space-around;
+    
+    
+    h2{
+        font-size: 50px;
+        background: #BEF9F2;
+        border-radius: 50px;
+        padding: 10px 100px;
+    }
+    p{
+        font-size: 35px;
+        text-align: center;
+        width: 60%;
+    }
+    .about_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 200px;
+        }
+        p{
+            font-size: 14px;
+            margin-top: -20px;
+        }
+    }
+}

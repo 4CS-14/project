@@ -7,6 +7,7 @@ nav {
   top: 0;
   left: 0;
   background: white;
+  z-index: 1000;
 }
 nav .container_nav {
   display: flex;
@@ -16,27 +17,37 @@ nav .container_nav {
 }
 nav .container_nav .nav_logo {
   display: flex;
-  align-items: center;
+  align-items: end;
 }
 nav .container_nav .nav_logo img {
   width: 100px;
   height: 100px;
 }
-nav .container_nav .nav_logo p {
-  font-size: 30px;
-  font-weight: 500;
-  margin-left: 30px;
-  color: #023535;
+nav .container_nav .nav_logo .logo_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+}
+nav .container_nav .nav_logo .logo_txt h2 {
+  font-size: 48px;
+  line-height: 26px;
+}
+nav .container_nav .nav_logo .logo_txt p {
+  font-size: 14px;
+  line-height: 26px;
 }
 nav .container_nav ul {
   display: flex;
-  width: 20%;
+  width: 50%;
   justify-content: space-between;
 }
 nav .container_nav ul li {
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #023535;
+  font-size: 24px;
+  line-height: 26px;
+  background: #BEF9F2;
+  border-radius: 50px;
+  padding: 5px 40px;
 }
 nav .container_nav .nav_btns {
   display: flex;
@@ -45,21 +56,11 @@ nav .container_nav .nav_btns {
 nav .container_nav .nav_btns button {
   border: none;
   background-color: transparent;
-  width: 130px;
-  height: 50px;
   cursor: pointer;
 }
 nav .container_nav .nav_btns .nav_login {
-  margin-right: 20px;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #023535;
-}
-nav .container_nav .nav_btns .nav_signup {
-  background-color: #023535;
-  color: white;
-  border-radius: 30px;
-  font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
+  background: #BEF9F2;
+  border-radius: 50px;
+  padding: 5px 40px;
 }/*# sourceMappingURL=nav.css.map */

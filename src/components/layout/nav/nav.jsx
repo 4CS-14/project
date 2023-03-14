@@ -8,17 +8,19 @@ export default function Nav() {
         <div className="container container_nav">
             <div className="nav_logo">
               <img src={logo} alt="" />
-              <p>Some bank</p>
+              <div className="logo_txt">
+                <h2>Cash Titan</h2>
+                <p>universal bank</p>
+              </div>
+              
             </div>
             <ul>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
+              <li>Відкрити картку</li>
+              <li>Про нас</li>
+              <li>Чому ми?</li>
             </ul>
             <div className="nav_btns">
-              <button className="nav_login">Log in</button>
-              <button className='nav_signup'>Sign up</button>
+              <button className="nav_login">Увійти</button>
             </div>
             </div>
           </nav>

@@ -1,0 +1,31 @@
+.about_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 30px 0;
+  justify-content: space-around;
+}
+.about_cont h2 {
+  font-size: 50px;
+  background: #BEF9F2;
+  border-radius: 50px;
+  padding: 10px 100px;
+}
+.about_cont p {
+  font-size: 35px;
+  text-align: center;
+  width: 60%;
+}
+.about_cont .about_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_cont .about_img img {
+  width: 200px;
+}
+.about_cont .about_img p {
+  font-size: 14px;
+  margin-top: -20px;
+}/*# sourceMappingURL=about.css.map */
