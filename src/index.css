@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/athelas');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,8 +45,8 @@ table {
 }
 
 p, h1, h2, h3, h4, h5, a, li, span, button{
-  font-family: 'Athelas';
-  font-weight: 400;
+	font-family: 'Alumni Sans';
+	font-weight: 400;
 
 }
 

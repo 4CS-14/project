@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './logo.png'
 import './nav.css'
 
 export default function Nav() {
@@ -7,17 +6,15 @@ export default function Nav() {
     <nav>
         <div className="container container_nav">
             <div className="nav_logo">
-              <img src={logo} alt="" />
-              <div className="logo_txt">
+            
                 <h2>Cash Titan</h2>
                 <p>universal bank</p>
-              </div>
-              
+             
             </div>
             <ul>
-              <li>Відкрити картку</li>
-              <li>Про нас</li>
-              <li>Чому ми?</li>
+              <li>Головна</li>
+              <li>Картки</li>
+              
             </ul>
             <div className="nav_btns">
               <button className="nav_login">Увійти</button>

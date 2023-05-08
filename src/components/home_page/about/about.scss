@@ -5,18 +5,24 @@
     height: 100vh;
     padding: 30px 0;
     justify-content: space-around;
+    background: #CBEDF1;
+
     
     
     h2{
         font-size: 50px;
-        background: #BEF9F2;
-        border-radius: 50px;
-        padding: 10px 100px;
+        background: #177481;
+        border-radius: 4px;
+        padding: 10px 130px;
+        color: #CBEDF1;
+        
+
     }
     p{
         font-size: 35px;
         text-align: center;
-        width: 60%;
+        width: 40%;
+        color: #053F48;
     }
     .about_img{
         display: flex;
@@ -24,10 +30,18 @@
         align-items: center;
         img{
             width: 200px;
+            
         }
         p{
             font-size: 14px;
             margin-top: -20px;
         }
     }
+}
+.about{
+    background: #CBEDF1;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

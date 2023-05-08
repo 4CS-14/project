@@ -1,51 +1,48 @@
 nav{
     display: flex;
     justify-content: center;
-    height: 100px;
+    padding-top: 30px;
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background: #ffff;
+    background-color: #CBEDF1;
     z-index: 1000;
     
     .container_nav{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         height: 100%;
         .nav_logo{
-            display: flex;
-            align-items: end;
-            img{
-                width: 100px;
-                height: 100px;
-            }
-            .logo_txt{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin-bottom: 12px;
+            
                 h2{
                     font-size: 48px;
                     line-height: 26px;
+                    color:#053F48;
+                    text-align: center;
                 }
                 p{
                     font-size: 14px;
                     line-height: 26px;
+                    color:#053F48;
+                    text-align: center;
                 }
-            }
+            
         }
         ul{
             display: flex;
             width: 50%;
-            justify-content: space-between;
+            justify-content: flex-start;
             li{
                 font-size: 24px;
                 line-height: 26px;
-                background: #BEF9F2;
-                border-radius: 50px;
-                padding: 5px 40px;
+                color: #CBEDF1;
+                padding: 5px 10px;
+                background: #275258;
+                border-radius: 4px;
+                margin-left: 20px;  
             }
         }
         .nav_btns{
@@ -55,12 +52,15 @@ nav{
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
+                
             }
             .nav_login{
                 font-size: 24px;
-                background: #BEF9F2;
-                border-radius: 50px;
-                padding: 5px 40px;
+                padding: 5px 10px;
+                background: #275258;
+                border-radius: 4px;
+                margin-left: 20px; 
+                color: #CBEDF1;
             }
 
         }

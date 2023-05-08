@@ -1,9 +1,10 @@
 import React from 'react'
 import './about.css'
-import logo from './logo.png'
+import logo from './logo.svg'
 
 export default function About() {
   return (
+    <div className="about">
     <div className='container about_cont'>
       <h2>Про нас</h2>
       <p>Хто ми?</p>
@@ -20,6 +21,7 @@ export default function About() {
         <img src={logo} alt="" />
         <p>Cash Titan</p>
       </div>
-    </div>
+    </div></div>
+    
   )
 }
