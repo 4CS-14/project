@@ -36,11 +36,14 @@ nav .container_nav ul {
 nav .container_nav ul li {
   font-size: 24px;
   line-height: 26px;
-  color: #CBEDF1;
   padding: 5px 10px;
   background: #275258;
   border-radius: 4px;
   margin-left: 20px;
+}
+nav .container_nav ul li :only-child {
+  color: #CBEDF1;
+  text-decoration: none;
 }
 nav .container_nav .nav_btns {
   display: flex;

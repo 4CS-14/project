@@ -1,7 +1,8 @@
 header{
     width: 100%;
     background: #177481;
-
+display: flex;
+justify-content: center;
     height: 100vh;
     .header_pic{
         position: relative;
@@ -46,8 +47,10 @@ header{
     }
     .header_form{
         display: flex;
+        
         flex-direction: column;
         align-items: center;
+        
         h2{
             text-align: center;
             font-size: 36px;
@@ -85,6 +88,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 15%;
+    height: 100%;
+    width: 75%;
+    
 }

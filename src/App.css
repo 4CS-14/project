@@ -1,9 +1,9 @@
 .app {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
 }
-.app .container {
+
+.container {
   width: 80%;
 }/*# sourceMappingURL=App.css.map */

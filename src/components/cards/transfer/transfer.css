@@ -1,0 +1,226 @@
+.transfer {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+}
+.transfer .transfer_upper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.transfer .transfer_upper .trans_card .trans_card_name {
+  color: #CBEDF1;
+  font-size: 36px;
+}
+.transfer .transfer_upper .trans_card :last-child {
+  width: 200px;
+  height: 120px;
+  box-shadow: rgba(24, 24, 24, 0.7) 15px 10px 0px;
+}
+.transfer .transfer_upper .trans_card :last-child img {
+  box-shadow: none;
+  width: 40px;
+  height: 33px;
+}
+.transfer .transfer_upper .balance {
+  width: 80%;
+}
+.transfer .transfer_upper .balance .balance_title {
+  color: #CBEDF1;
+  font-size: 36px;
+}
+.transfer .transfer_upper .balance .balance_count {
+  color: #275258;
+  font-size: 36px;
+  background: #CBEDF1;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-top: 25px;
+  mix-blend-mode: hard-light;
+}
+.transfer .transfer_lower {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.transfer .transfer_lower .transfer_title {
+  color: #CBEDF1;
+  font-size: 36px;
+}
+.transfer .transfer_lower .transfer_section {
+  display: flex;
+  justify-content: space-between;
+}
+.transfer .transfer_lower .transfer_section .transfer_form {
+  width: 600px;
+  height: 300px;
+  background: #CBEDF1;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  mix-blend-mode: hard-light;
+}
+.transfer .transfer_lower .transfer_section .transfer_form h2 {
+  color: #275258;
+  font-size: 34px;
+  margin-top: 10px;
+}
+.transfer .transfer_lower .transfer_section .transfer_form input {
+  width: 98%;
+  padding: 12px 0;
+  border: 2px solid #FFFFFF;
+  background: #177481;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #CBEDF1;
+  margin-top: 10px;
+}
+.transfer .transfer_lower .transfer_section .transfer_form .form_subsec {
+  display: flex;
+}
+.transfer .transfer_lower .transfer_section .transfer_form .form_subsec .cash_to_send {
+  padding: 20px 40px;
+  background: #177481;
+  color: #CBEDF1;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 64px;
+  margin-top: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+}
+.transfer .transfer_lower .transfer_section .transfer_form .form_subsec .cash_to_send span {
+  font-size: 40px;
+}
+.transfer .transfer_lower .transfer_section .transfer_form .form_subsec .comission {
+  color: rgba(39, 82, 88, 0.7);
+  font-size: 34px;
+  line-height: 50px;
+  margin-left: 50px;
+}
+.transfer .transfer_lower .transfer_section .transfer_form .form_subsec .comission span {
+  color: #275258;
+}
+.transfer .transfer_lower .transfer_section .transfer_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.transfer .transfer_lower .transfer_section .transfer_button .visa {
+  display: flex;
+  width: 299px;
+  height: 118px;
+  background: #CBEDF1;
+  mix-blend-mode: hard-light;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.transfer .transfer_lower .transfer_section .transfer_button .visa :first-child {
+  margin-top: 80px;
+}
+.transfer .transfer_lower .transfer_section .transfer_button .visa :last-child {
+  margin-bottom: 40px;
+}
+.transfer .transfer_lower .transfer_section .transfer_button button {
+  width: 299px;
+  height: 70px;
+  background: #CBEDF1;
+  mix-blend-mode: hard-light;
+  border-radius: 10px;
+  font-size: 40px;
+  border: none;
+  color: #275258;
+}
+
+.about_card {
+  padding-top: 150px;
+  background: #177481;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.transfer_card_num::-webkit-input-placeholder {
+  color: #CBEDF1;
+  font-size: 40px;
+  font-family: "Alumni Sans";
+}
+
+.transfer_story {
+  background: #275258;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.transfer_story .story_title {
+  color: #18A5BB;
+  font-size: 50px;
+  margin-top: 80px;
+}
+.transfer_story .story_cont {
+  margin: 0 auto;
+  background: #177481;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px 0 40px 0;
+}
+.transfer_story .story_cont .trans_story_item {
+  background: #1B8695;
+  padding: 10px;
+  border-radius: 4px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin-top: 20px;
+}
+.transfer_story .story_cont .trans_story_item .story_left {
+  display: flex;
+  margin-left: 30px;
+}
+.transfer_story .story_cont .trans_story_item .story_left .story_img .story_img_name {
+  font-size: 30px;
+  color: #03252b;
+}
+.transfer_story .story_cont .trans_story_item .story_left .story_img :last-child {
+  width: 40px;
+  height: 30px;
+  margin-top: 10px;
+  box-shadow: rgba(24, 24, 24, 0.7) 7px 5px 0px;
+}
+.transfer_story .story_cont .trans_story_item .story_left .story_img :last-child p {
+  font-size: 14px;
+  margin-left: -5px;
+}
+.transfer_story .story_cont .trans_story_item .story_left .story_img :last-child img {
+  width: 20px;
+  height: 12px;
+  margin-top: 5px;
+  box-shadow: none;
+}
+.transfer_story .story_cont .trans_story_item .story_left .story_name {
+  margin-left: 100px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.transfer_story .story_cont .trans_story_item .story_right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 30px;
+}
+.transfer_story .story_cont .trans_story_item .story_right p {
+  font-size: 25px;
+}
+.transfer_story .story_cont .trans_story_item .story_right img {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}/*# sourceMappingURL=transfer.css.map */

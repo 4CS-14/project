@@ -1,0 +1,234 @@
+.transfer{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    
+
+ .transfer_upper{
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto;
+    .trans_card{
+        .trans_card_name{
+            color: #CBEDF1;
+            font-size: 36px;
+            
+        }
+        :last-child{
+            width: 200px;
+            height: 120px;
+            box-shadow: rgba(24, 24, 24, 0.7) 15px 10px 0px ;
+            img{
+                box-shadow: none;
+                width: 40px;
+                height: 33px;
+            }
+        }
+    }
+    .balance{
+        width: 80%;
+        .balance_title{
+            color: #CBEDF1;
+            font-size: 36px;
+        }
+        .balance_count{
+            color: #275258;
+            font-size: 36px;
+            background: #CBEDF1;
+            border-radius: 10px;
+            padding: 20px 20px;
+            margin-top: 25px;
+            mix-blend-mode: hard-light;
+        }
+    }
+}
+.transfer_lower{
+    margin: 0 auto;
+    margin-top: 100px;
+    .transfer_title{
+            color: #CBEDF1;
+            font-size: 36px;
+    }
+    .transfer_section{
+        display: flex;
+        justify-content: space-between;
+        .transfer_form{
+            width: 600px;
+            height: 300px;
+            background: #CBEDF1;
+            border-radius: 10px;
+            margin-top: 15px;
+            padding: 10px;
+            mix-blend-mode: hard-light;
+            h2{
+                color: #275258;
+                font-size: 34px;
+                margin-top: 10px;
+            }
+            input{
+                width: 98%;
+                padding: 12px 0;
+                border: 2px solid #FFFFFF;
+                background: #177481;
+                padding-left: 10px;
+                font-size: 20px;
+                color: #CBEDF1;
+                margin-top: 10px;
+            }
+            .form_subsec{
+                display: flex;
+                .cash_to_send{
+                    padding: 20px 40px;
+                    background: #177481;
+                    color: #CBEDF1;
+                    width: fit-content;
+                    font-size: 64px;
+                    margin-top: 10px;
+                    border: 2px solid #FFFFFF;
+                    border-radius: 10px;
+                    span{
+                        font-size: 40px;
+                    }
+                }   
+                .comission{
+                    color: rgba(39, 82, 88, 0.7);
+                    font-size: 34px;
+                    line-height: 50px;
+                    margin-left: 50px;
+                    span{
+                        color: #275258;
+                        
+                    }
+                }
+            }
+        }
+        .transfer_button{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .visa{
+                display: flex;
+                width: 299px;
+                height: 118px;
+                background: #CBEDF1;
+                mix-blend-mode: hard-light;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 15px;
+                :first-child{
+                    margin-top: 80px;
+                }
+                :last-child{
+                    margin-bottom: 40px;
+                }
+
+            }
+            button{
+                width: 299px;
+                height: 70px;
+                background: #CBEDF1;
+                mix-blend-mode: hard-light;
+                border-radius: 10px;
+                font-size: 40px;
+                border: none;
+                color: #275258;
+            }
+        }
+    }
+}
+}
+.about_card{
+    padding-top: 150px;
+    background: #177481;
+    width: 100%;
+    padding-bottom: 100px;
+    
+}
+.transfer_card_num::-webkit-input-placeholder{
+    color: #CBEDF1;
+    font-size: 40px;
+    font-family: 'Alumni Sans';
+}
+.transfer_story{
+    background: #275258;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    .story_title{
+        color: #18A5BB;
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    .story_cont{
+        margin: 0 auto;
+        background: #177481;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 30px 0 40px 0;
+        .trans_story_item{
+            background: #1B8695;
+            padding: 10px;
+            border-radius: 4px;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+            margin-top: 20px;
+            .story_left{
+                display: flex;
+                margin-left: 30px;
+                .story_img{
+                    
+                    .story_img_name{
+                        font-size: 30px;
+                        color: #03252b;
+                        
+                    }
+                    :last-child{
+                        width: 40px;
+                        height: 30px;
+                        margin-top: 10px;
+                        box-shadow: rgba(24, 24, 24, 0.7) 7px 5px 0px ;
+                        p{
+                            font-size: 14px;
+                            margin-left: -5px;
+                        }
+                        img{
+                            width: 20px;
+                            height: 12px;
+                            margin-top: 5px;
+                            box-shadow: none;
+                        }
+                    }
+                }
+                .story_name{
+                    margin-left: 100px;
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+            }
+            .story_right{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                margin-right: 30px;
+                p{
+                    font-size: 25px;
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

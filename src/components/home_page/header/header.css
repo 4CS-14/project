@@ -1,6 +1,8 @@
 header {
   width: 100%;
   background: #177481;
+  display: flex;
+  justify-content: center;
   height: 100vh;
 }
 header .header_pic {
@@ -79,6 +81,6 @@ header .header_form button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 0 auto;
-  margin-top: 15%;
+  height: 100%;
+  width: 75%;
 }/*# sourceMappingURL=header.css.map */

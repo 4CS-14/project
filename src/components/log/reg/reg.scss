@@ -1,0 +1,77 @@
+.reg_page{
+    background: #177481;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    
+    
+    .reg_title{
+        color: #CBEDF1;
+        font-size: 50px;
+        margin-top: 170px;
+    }
+    .reg_form{
+        width: 500px;
+        height: 900px;
+        background: #CBEDF1;
+        mix-blend-mode: hard-light;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: 40px;
+            color: #275258;
+            margin-top: 20px;
+        }
+        input{
+            width: 99%;
+            background: #177481;
+            border: 2px solid #FFFFFF;
+            border-radius: 10px;
+            
+            height: 60px;
+            margin-top: 15px;
+            font-size: 34px;
+            color: #CBEDF1;
+        }
+        .form_password{
+            display: flex;
+            justify-content: space-between;
+            
+            :last-child{
+                mix-blend-mode: hard-light;
+            }
+        }
+        button{
+            
+            width: 220px;
+            height: 60px;
+            font-size: 44px;
+            background: #33D1E4;
+            border: 2px solid #177481;
+            border-radius: 10px;
+            mix-blend-mode: normal;
+            color: #275258;
+            
+            margin: 0 auto; 
+            margin-top: 30px;
+        }
+        .reg_link{
+            color: #275258; 
+            font-size: 36px;
+            mix-blend-mode: hard-light;
+            font-family: 'Alumni Sans';
+            text-align: center;
+            margin-top: 20px;
+        }
+        img{
+            width: 40px;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+}

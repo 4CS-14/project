@@ -5,7 +5,7 @@ import card_pic from './card.png'
 export default function Header() {
   return (
      <header>
-        <div className="container cont_header">
+        <div className=" cont_header">
           <div className="header_pic">
             <div className="header_pic_rect">
               <p>Повідомлення:</p>

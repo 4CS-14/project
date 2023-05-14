@@ -38,11 +38,15 @@ nav{
             li{
                 font-size: 24px;
                 line-height: 26px;
-                color: #CBEDF1;
+                
                 padding: 5px 10px;
                 background: #275258;
                 border-radius: 4px;
                 margin-left: 20px;  
+                :only-child{
+                    color: #CBEDF1;
+                    text-decoration: none;
+                }
             }
         }
         .nav_btns{
